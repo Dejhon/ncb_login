@@ -79,7 +79,7 @@ class homePage extends StatelessWidget {
       ListView(
       children:[
       Container(
-        height: 1050,
+        height: 900,
         decoration: const BoxDecoration(color: Colors.white),
         child: Column(
           children: [
