@@ -35,12 +35,15 @@ class _DropDownListState extends State<DropDownList> {
                     );
                   },
                   body: Container(
-                      child: Container(
+                    decoration:const BoxDecoration(
+                      color: Color.fromARGB(255, 131, 130, 130),
+                    ),
+                    child: Container(
                     child: Column(
                       children: [
                         Container(
                           width: 400.0,
-                          margin: const EdgeInsets.only(left: 10, right: 10),
+                          margin: const EdgeInsets.only(top:10, left: 10, right: 10),
                           decoration: const BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -49,6 +52,14 @@ class _DropDownListState extends State<DropDownList> {
                               bottomLeft: Radius.circular(10),
                               bottomRight: Radius.circular(10),
                             ),
+                            // boxShadow: [
+                            //   BoxShadow(
+                            //     color: Colors.grey,
+                            //     spreadRadius: 1,
+                            //     blurRadius: 1,
+                            //     offset: Offset(0, 1),
+                            //   )
+                            // ],
                           ),
                           // margin: const EdgeInsets.all(0),
                           child: TextButton(
